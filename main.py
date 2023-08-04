@@ -148,19 +148,19 @@ class Bot(QWidget):
 
         # Create a label to display the current slider value
         self.top_label = QLabel(
-            'How to use: Go to pixelplace, and press X to start and stop the bot.\n'
+            'How to use: Go to PixelPlace, and press X to start and stop the bot.\n'
             'NOTE: You are responsible for any misuse of this bot on MVP, etc.\n'
             '\n'
             'Line Width - base width of the lines\n'
-            'Width Variation - percent the width of lines will vary by\n'
+            'Width Variation Factor - percent the width of lines will vary by\n'
             'Width Variation Constant - variation of line not proportional to Line Width\n'
             'Line Offset - how much lines can be offset from each other\n'
             'Hole Percentage - percent of pixels to skip while drawing\n'
-            'Zoom - set this to the zoom on pixelplace, must be a whole number\n'
+            'Zoom - set this to the zoom on PixelPlace, must be a whole number\n'
             'Speed - speed of the bot in px/s\n'
             'Speed Variation - how much to vary the speed by over time\n'
             '\n'
-            'Its best to experiment with these settings on a prive canvas or 7 to get a feel\n'
+            "It's best to experiment with these settings on a private canvas or 7 to get a feel\n"
             'for how the bot works\n', 
             self
         )
