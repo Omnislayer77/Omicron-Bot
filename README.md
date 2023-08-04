@@ -14,15 +14,24 @@ This is a first-of-its-kind PixelPlace bot that can imitate a human. The bot wor
 The bot currently allows you to set eight parameters 
 
 Line Width - This is the base width of the wall, it will be altered by some of the variables below
+
 Width Variation Factor - This is a percent of Line Width, and will be multiplied by a noise function to add variation to the width of the wall
+
 Width Variation Constant - This is a constant, not a percent, that will be multiplied by the noise function and added to the width
+
 Line Offset - This is how much the lines can be offset, left or right, from the center of the wall. Setting this to 0 will make walls perfectly symmetrical
+
 Hole Percentage - This is the percentage of pixels the bot will skip while placing, meant to mimic humans skipping pixels when they move too fast
+
 Zoom - This is the scale factor, keep it the same as on PixelPlace. Must be a whole number.
+
 Speed - Speed of the bot in px/s
+
 Speed Variation - Will be multiplied by a noise function and per pixel added to speed to add variation in the placement speed.
 
+
 Once you want to start the bot, go to Pixelplace and make sure the zoom is the same as you have it set in the bot (must be a whole number). Put your mouse over the top left of where you want to start walling and press X. Once you want it to stop, press X again and the bot will pause. It's best to experiment with these settings on a private canvas or 7 to get a feel for how the bot works before using it somewhere you care about.
+
 
 NOTE: You and only you are responsible if you misuse this bot. You have been warned.
 
