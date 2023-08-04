@@ -22,6 +22,7 @@ Speed - Speed of the bot in px/s
 Speed Variation - Will be multiplied by a noise function and per pixel added to speed to add variation in the placement speed.
 
 ![image](https://github.com/Omnislayer77/Omicron-Bot/assets/35577982/096f0385-800e-4583-8f37-7ab85cb69c2a)
+
 Demonstration of various settings.
 
 Once you want to start the bot, go to Pixelplace and make sure the zoom is the same as you have it set in the bot (must be a whole number). Put your mouse over the top left of where you want to start walling and press X. Once you want it to stop, press X again and the bot will pause. It's best to experiment with these settings on a private canvas or 7 to get a feel for how the bot works before using it somewhere you care about.
