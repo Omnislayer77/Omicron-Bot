@@ -6,7 +6,7 @@ This is a first-of-its-kind PixelPlace bot that can imitate a human. The bot wor
 
 # How To Install
 1. Install Python3 if you do not already have it
-2. Clone this repository `git clone https://github.com/Omnislayer77/Omnicron-Bot.git`
+2. Clone this repository `git clone https://github.com/Omnislayer77/Omicron-Bot.git`
 3. Go into the directory and run `pip install -r requirements.txt`
 4. To start the bot, run `python main.py`
 
