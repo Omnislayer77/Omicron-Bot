@@ -16,7 +16,7 @@ The bot currently allows you to set eight parameters
 2. Width Variation Factor - This is a percent of Line Width, and will be multiplied by a noise function to add variation to the width of the wall
 3. Width Variation Constant - This is a constant, not a percent, that will be multiplied by the noise function and added to the width
 4. Line Offset - This is how much the lines can be offset, left or right, from the center of the wall. Setting this to 0 will make walls perfectly symmetrical  
-5. Hole Percentage - This is the percentage of pixels the bot will skip while placing, meant to mimic humans skipping pixels when they move too fast
+5. Hole Percentage - This is the percentage of pixels the bot will skip while placing, meant to mimic humans skipping pixels when they move too fast. High values (>40%) will imitate dotting more than walling, although it will look like botted dotting rather than human dotting.
 6. Zoom - This is the scale factor, keep it the same as on PixelPlace. Must be a whole number.
 7. Speed - Speed of the bot in px/s
 8. Speed Variation - Will be multiplied by a noise function and per pixel added to speed to add variation in the placement speed.
